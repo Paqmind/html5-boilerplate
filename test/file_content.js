@@ -63,7 +63,7 @@ function runTests() {
         });
 
         it('"index.html" should contain the correct jQuery version in the local URL', function (done) {
-            var string = 'js/vendor/jquery-' + pkg.devDependencies.jquery + '.min.js';
+            var string = 'scripts/vendor/jquery-' + pkg.devDependencies.jquery + '.min.js';
             checkString(path.resolve(dir, 'index.html'), string, done);
         });
 
@@ -71,7 +71,7 @@ function runTests() {
             var string = '/*! HTML5 Boilerplate v' + pkg.version +
                          ' | ' + pkg.license.type + ' License' +
                          ' | ' + pkg.homepage + ' */\n\n/*\n';
-            checkString(path.resolve(dir, 'css/main.css'), string, done);
+            checkString(path.resolve(dir, 'styles/main.css'), string, done);
         });
 
     });

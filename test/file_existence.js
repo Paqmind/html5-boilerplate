@@ -22,10 +22,10 @@ var expectedFilesInDistDir = [
     'browserconfig.xml',
     'crossdomain.xml',
 
-    'css/', // for directories, a `/` character
+    'styles/', // for directories, a `/` character
             // should be included at the end
-        'css/main.css',
-        'css/normalize.css',
+        'styles/main.css',
+        'styles/normalize.css',
 
     'doc/',
         'doc/TOC.md',
@@ -45,12 +45,12 @@ var expectedFilesInDistDir = [
 
     'index.html',
 
-    'js/',
-        'js/main.js',
-        'js/plugins.js',
-        'js/vendor/',
-            'js/vendor/jquery-' + pkg.devDependencies.jquery + '.min.js',
-            'js/vendor/modernizr-2.8.3.min.js',
+    'scripts/',
+        'scripts/main.js',
+        'scripts/plugins.js',
+        'scripts/vendor/',
+            'scripts/vendor/jquery-' + pkg.devDependencies.jquery + '.min.js',
+            'scripts/vendor/modernizr-2.8.3.min.js',
 
     'LICENSE.txt',
     'robots.txt',

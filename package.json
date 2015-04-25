@@ -34,11 +34,11 @@
     "type": "MIT",
     "url": "https://github.com/h5bp/html5-boilerplate/blob/master/LICENSE.txt"
   },
-  "name": "html5-boilerplate",
+  "name": "paqmind.html5-boilerplate",
   "private": true,
   "scripts": {
     "build": "gulp build",
     "test": "gulp archive && mocha --reporter spec --timeout 5000"
   },
-  "version": "5.1.0"
+  "version": "0.1.0"
 }
