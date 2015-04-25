@@ -37,8 +37,7 @@
   "name": "paqmind.html5-boilerplate",
   "private": true,
   "scripts": {
-    "build": "gulp build",
-    "test": "gulp archive && mocha --reporter spec --timeout 5000"
+    "build": "gulp build"
   },
   "version": "0.1.0"
 }
