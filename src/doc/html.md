@@ -86,11 +86,6 @@ HTTP response header as the `meta` tag will not always work if your site is
 served on a non-standard port, as Internet Explorer's preference option
 `Display intranet sites in Compatibility View` is checked by default.
 
-If you are using Apache as your webserver, including the
-[`.htaccess`](https://github.com/h5bp/server-configs-apache) file takes care of
-the HTTP header. If you are using a different server, check out our [other
-server config](https://github.com/h5bp/server-configs).
-
 Starting with Internet Explorer 11, [document modes are
 deprecated](https://msdn.microsoft.com/en-us/library/ie/bg182625.aspx#docmode).
 If your business still relies on older web apps and services that were

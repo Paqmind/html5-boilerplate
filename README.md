@@ -39,8 +39,6 @@ Choose one of the following options:
   * [`jQuery`](https://jquery.com/) via CDN, with a local fallback
   * A custom build of  [`Modernizr`](http://modernizr.com/) for feature
     detection
-  * [`Apache Server Configs`](https://github.com/h5bp/server-configs-apache)
-    that, among other, improve the web site's performance and security
 * Placeholder CSS Media Queries.
 * Useful CSS helper classes.
 * Default print styles, performance optimized.

@@ -65,7 +65,6 @@ gulp.task('clean', function (done) {
 });
 
 gulp.task('copy', [
-    'copy:.htaccess',
     'copy:index.html',
     'copy:jquery',
     'copy:license',
@@ -73,12 +72,6 @@ gulp.task('copy', [
     'copy:misc',
     'copy:normalize'
 ]);
-
-gulp.task('copy:.htaccess', function () {
-    return gulp.src('node_modules/apache-server-configs/dist/.htaccess')
-               .pipe(plugins.replace(/# ErrorDocument/g, 'ErrorDocument'))
-               .pipe(gulp.dest(dirs.dist));
-});
 
 gulp.task('copy:index.html', function () {
     return gulp.src(dirs.src + '/index.html')
