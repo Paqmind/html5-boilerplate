@@ -7,10 +7,10 @@
 
 ## HTML5 Boilerplate core
 
-* [HTML](html.md) — Guide to the default HTML.
-* [CSS](css.md) — Guide to the default CSS.
-* [JavaScript](js.md) — Guide to the default JavaScript.
-* [Everything else](misc.md).
+* [HTML](html.md) — Guide to the default HTML
+* [Styles](styles.md) — Guide to the default CSS styles
+* [Scripts](scripts.md) — Guide to the default JS scripts
+* [Everything else](misc.md)
 
 ## Development
 
